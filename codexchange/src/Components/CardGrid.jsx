@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import 'holderjs';
 import { Container } from 'react-bootstrap';
-
+import Contact from './Contact';
 
 
 function GridExample() {
@@ -67,6 +67,7 @@ function GridExample() {
                 <Button variant="secondary" href={coder.GitHub}>
                   GitHub
                 </Button>
+                <Contact />
               </Card.Body>
             </Card>
           </Col>
