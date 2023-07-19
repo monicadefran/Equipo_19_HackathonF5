@@ -4,6 +4,7 @@ import GridExample from '../Components/CardGrid';
 import NavBar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 
+
 function Home() {
   return (
    <>
