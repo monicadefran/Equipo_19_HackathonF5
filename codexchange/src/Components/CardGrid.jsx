@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Card from 'react-bootstrap/Card';
@@ -6,21 +5,20 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import 'holderjs';
-import { Container } from 'react-bootstrap';
-import Contact from './Contact';
-
+import { Container, Form } from 'react-bootstrap'; // Importa Form desde react-bootstrap
 
 function GridExample() {
   const [data, setData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
-  const [searchProperty, setSearchProperty] = useState('Nombre'); // Propiedad de búsqueda actual
+  const [searchProperty, setSearchProperty] = useState('Ciudad'); // Propiedad de búsqueda actual
 
   useEffect(() => {
     fetchData();
   }, []);
 
   const fetchData = () => {
-    const apiUrl = 'https://hackaton-fd4b0-default-rtdb.firebaseio.com/coders.json';
+    const apiUrl =
+      'https://hackaton-fd4b0-default-rtdb.firebaseio.com/coders.json';
 
     axios
       .get(apiUrl)
@@ -40,7 +38,7 @@ function GridExample() {
     setSearchProperty(event.target.value);
   };
 
-  const filteredData = data.filter(coder =>
+  const filteredData = data.filter((coder) =>
     coder[searchProperty].toLowerCase().includes(searchTerm.toLowerCase())
   );
 
@@ -67,7 +65,6 @@ function GridExample() {
                 <Button variant="secondary" href={coder.GitHub}>
                   GitHub
                 </Button>
-                <Contact />
               </Card.Body>
             </Card>
           </Col>
