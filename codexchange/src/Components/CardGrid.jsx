@@ -13,6 +13,7 @@ import { Container } from 'react-bootstrap';
 function GridExample() {
   const [data, setData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const [searchProperty, setSearchProperty] = useState('Nombre'); // Propiedad de búsqueda actual
 
   useEffect(() => {
     fetchData();
@@ -31,11 +32,17 @@ function GridExample() {
       });
   };
 
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
 
+  const handleSelectProperty = (event) => {
+    setSearchProperty(event.target.value);
+  };
 
-  const filteredData = data.filter(coder => coder.Nombre.toLowerCase().includes(searchTerm.toLowerCase()));
-
-
+  const filteredData = data.filter(coder =>
+    coder[searchProperty].toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <>

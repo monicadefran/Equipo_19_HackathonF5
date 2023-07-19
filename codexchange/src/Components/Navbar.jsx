@@ -70,7 +70,7 @@ function NavScrollExample() {
             </Nav.Link>
           </Nav>
           <Form className="d-flex">
-            <Form.Control
+          <Form.Control
               type="text"
               placeholder="Buscar..."
               value={searchTerm}
