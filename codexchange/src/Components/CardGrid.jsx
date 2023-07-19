@@ -1,3 +1,6 @@
+
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -5,28 +8,65 @@ import Button from 'react-bootstrap/Button';
 import 'holderjs';
 import { Container } from 'react-bootstrap';
 
+
+
 function GridExample() {
+  const [data, setData] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = () => {
+    const apiUrl = 'https://hackaton-fd4b0-default-rtdb.firebaseio.com/coders.json';
+
+    axios
+      .get(apiUrl)
+      .then((response) => {
+        setData(response.data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
+
+
+
+  const filteredData = data.filter(coder => coder.Nombre.toLowerCase().includes(searchTerm.toLowerCase()));
+
+
+
   return (
+    <>
    <Container style={{ marginTop: '2rem' }}>
-    <Row xs={1} md={2} className="g-4">
-      {Array.from({ length: 10 }).map((_, idx) => (
-        <Col key={idx}>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-    </Row>
+      <Row xs={1} md={2} className="g-4">
+        {filteredData.map(coder => (
+          <Col key={coder.id}>
+            <Card>
+              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Body>
+                <Card.Title>{coder.Nombre}</Card.Title>
+                <Card.Text>
+                  {coder.Posicion}
+                  <br />
+                  {coder.Ciudad}
+                  <br />
+                  {coder.Habilidades.join(", ")}
+                </Card.Text>
+                <Button variant="primary" href={coder.LinkedIn}>
+                  LinkedIn
+                </Button>
+                <Button variant="secondary" href={coder.GitHub}>
+                  GitHub
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
     </Container>
+    </>
   );
 }
 

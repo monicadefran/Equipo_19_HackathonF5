@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -8,6 +9,39 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavScrollExample() {
+  const [data, setData] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchProperty, setSearchProperty] = useState('Nombre'); // Propiedad de búsqueda actual
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = () => {
+    const apiUrl = 'https://hackaton-fd4b0-default-rtdb.firebaseio.com/coders.json';
+
+    axios
+      .get(apiUrl)
+      .then((response) => {
+        setData(response.data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
+
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const handleSelectProperty = (event) => {
+    setSearchProperty(event.target.value);
+  };
+
+  const filteredData = data.filter(coder =>
+    coder[searchProperty].toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
@@ -37,12 +71,12 @@ function NavScrollExample() {
           </Nav>
           <Form className="d-flex">
             <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
+              type="text"
+              placeholder="Buscar..."
+              value={searchTerm}
+              onChange={handleSearch}
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-success" value={searchProperty} onChange={handleSelectProperty}>Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
