@@ -7,12 +7,14 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import nav from '../assets/nav.png'
 
 function NavScrollExample() {
   
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    
+    <><Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand href="#">Codexchange</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -38,7 +40,13 @@ function NavScrollExample() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <img
+        src={nav}
+        height="100%"
+        className="d-block  align-top mx-auto"
+        alt="Nav" /></>
   );
+  
 }
 
 export default NavScrollExample;
