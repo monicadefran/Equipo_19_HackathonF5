@@ -2,7 +2,8 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
-function Example() {
+
+function Contact() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -46,4 +47,4 @@ function Example() {
     </>
   );
 }
-export default Example;
+export default Contact;
