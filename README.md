@@ -1,7 +1,7 @@
 
 ## Equipo_19_HackathonF5
 
-## Para acceder a este repositorio (pongo ejemplo con visual studio code) debes tener instalados los siguientes programas: 
+## Para acceder a este repositorio debes tener instalados los siguientes programas: 
 
 ```
 - Node
