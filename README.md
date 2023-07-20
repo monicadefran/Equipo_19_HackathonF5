@@ -36,8 +36,9 @@ git push -u origin main"
 "npm create vite@latest"
 
 Nos aparecera una lista de frameworks, elegimos react.
+Seguidamente elegiremos una "variant" de las que aparecen, en este caso, JavaScript.
 ```
 
-## Seguidamente elegiremos una "variant" de las que aparecen, en este caso, JavaScript.
+## 
 
 
