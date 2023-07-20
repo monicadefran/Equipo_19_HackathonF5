@@ -71,8 +71,9 @@ Es una base de datos de documentos que ofrece una gran escalabilidad y flexibili
 
 ## Contribuciones
 
+```
 Si deseas contribuir a este proyecto, te invitamos a realizar un "Pull Request" en GitHub. Agradecemos cualquier mejora, corrección de errores o nuevas características que puedas aportar.
-
+```
 
 
 
