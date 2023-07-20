@@ -1,14 +1,14 @@
 
 ## Equipo_19_HackathonF5
-```
-Para acceder a este repositorio (pongo ejemplo con visual studio code) debes tener instalados los siguientes programas: 
 
+## Para acceder a este repositorio (pongo ejemplo con visual studio code) debes tener instalados los siguientes programas: 
+
+```
 - Node
 
 - Tener creada la estructura de React:
 https://es.react.dev/learn/start-a-new-react-project
 
-Para que se lean los datos y el puerto de acceso será "http://localhost:8080/character"
 ```
 
 
@@ -37,13 +37,4 @@ Nos aparecera una lista de frameworks, elegimos react.
 
 ## Seguidamente elegiremos una "variant" de las que aparecen, en este caso, JavaScript.
 
-```
-Una vez creada, intruduciremos los comandos:
-- "cd seguido del nombre que hayamos elegido"
-- "npm install"
-- " npm run dev"
-```
 
-## Y nos va a entregar un puerto de acceso donde poder visualizarlo.
-
-## Para acceder al proyecto hacemos click en "open folder".
