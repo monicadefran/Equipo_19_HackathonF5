@@ -37,8 +37,9 @@ git push -u origin main"
 
 Nos aparecera una lista de frameworks, elegimos react.
 Seguidamente elegiremos una "variant" de las que aparecen, en este caso, JavaScript.
+
 ```
 
-## 
+
 
 
