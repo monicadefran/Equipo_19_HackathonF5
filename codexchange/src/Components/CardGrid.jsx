@@ -57,7 +57,7 @@ function GridExample() {
               placeholder="Buscar..."
               value={searchTerm}
               onChange={handleSearch}
-              className="form-control-sm" // Opcional: si quieres que la barra de búsqueda sea más pequeña
+              className="form-control-sm"
             />
           </Form.Group>
         </Form>
