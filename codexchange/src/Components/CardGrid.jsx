@@ -49,7 +49,7 @@ function GridExample() {
           <Form.Group controlId="searchTerm">
             <Form.Control
               type="text"
-              placeholder="Buscar..."
+              placeholder="Busca en tu ciudad..."
               value={searchTerm}
               onChange={handleSearch}
               className="form-control-sm" // Opcional: si quieres que la barra de búsqueda sea más pequeña
@@ -57,7 +57,7 @@ function GridExample() {
           </Form.Group>
         </Form>
 
-        <Row xs={1} md={2} className="g-4">
+        <Row xs={1} md={3} className="g-4">
           {filteredCoder.map((coder) => (
             <Col key={coder.id}>
               <Card>
