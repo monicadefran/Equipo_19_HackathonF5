@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const fetchData = () => {
     const apiUrl =
-      'https://hackaton-fd4b0-default-rtdb.firebaseio.com/coders.json';
+    'http://localhost:8000/coders';
   
     return axios
       .get(apiUrl)

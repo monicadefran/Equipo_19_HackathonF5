@@ -14,7 +14,7 @@ describe('fetchData', () => {
     expect(result).toEqual([{ id: 1 }]);
     expect(mockAxios.get).toHaveBeenCalledTimes(1);
     expect(mockAxios.get).toHaveBeenCalledWith(
-      'https://hackaton-fd4b0-default-rtdb.firebaseio.com/coders.json'
+      'http://localhost:8000/coders'
     );
   });
 });
