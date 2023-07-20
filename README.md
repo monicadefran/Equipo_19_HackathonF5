@@ -31,6 +31,7 @@ http://localhost:3000
 ```
 ## Características Principales
 
+```
 Home: 
 Página de inicio donde se muestra una lista de desarrolladores disponibles.
 
@@ -42,9 +43,11 @@ Página que muestra información detallada sobre un desarrollador seleccionado.
 
 Createads:
 Página para que los anunciantes puedan subir su perfil y habilidades.
+```
 
 ## Tecnologías Utilizadas
 
+```
 JavaScript: es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web,
 React.js: 
 
@@ -61,7 +64,7 @@ Estilos para la interfaz de usuario.
 
 MongoDB:
 Es una base de datos de documentos que ofrece una gran escalabilidad y flexibilidad, y un modelo de consultas e indexación avanzado.
-
+```
 
 ![image](https://github.com/monicadefran/Equipo_19_HackathonF5/assets/134279099/c4b8dfaa-5593-4a81-948d-1693434414ba)
 
