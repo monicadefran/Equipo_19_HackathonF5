@@ -5,7 +5,10 @@ import NavScrollExample from '../Components/Navbar';
 import axios from 'axios'
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+
 import { Container } from 'react-bootstrap';
+import { toast } from 'react-toastify'; 
+import 'react-toastify/dist/ReactToastify.css';
 
 const URI = 'http://localhost:8000/coders';
 
@@ -21,13 +24,15 @@ const Createdads = () => {
     const [gitHub, setGitHub] = useState('')
     
     
-    const navigate = useNavigate()    
+    const navigate = useNavigate();
+  
     
     //procedimiento guardar
     const store = async (e) => {
         e.preventDefault()
         await axios.post(URI, {Nombre: nombre, Ciudad:ciudad, Habilidades:habilidades, Necesidades:necesidades, LikedIn:likedIn, GitHub:gitHub })
-        navigate('/')
+        navigate('/');
+        toast.success('¡Usuario agregado exitosamente!');
     }
 
   

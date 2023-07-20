@@ -8,6 +8,8 @@ import Details from './Pages/Details';
 import Createads from './Pages/Createads'
 import GridExample from './Components/CardGrid'
 import NavScrollExample from './Components/Navbar'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -19,10 +21,13 @@ function App() {
           <Route path="/Createads" element={<Createads />} />
           <Route path="/Details" element={<Details />} />
           <Route path="/CardGrid" element={< GridExample/>} />
+         
           
    
         </Routes>
+        <ToastContainer />
     </BrowserRouter>
+     
   );
 }
 
