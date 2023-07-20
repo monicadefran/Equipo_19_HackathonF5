@@ -2,11 +2,13 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Footer from '../Components/Footer';
 import NavScrollExample from '../Components/Navbar';
+import { Container } from 'react-bootstrap';
 
 export default function createdads() {
   return (
     <div>
       <NavScrollExample />
+      <Container style={{ marginBottom: '5%', marginTop: '5%'}}>
       <Form>
         <Form.Group className="mb-3" controlId="formBasiname">
           <Form.Label>Nombre</Form.Label>
@@ -44,6 +46,7 @@ export default function createdads() {
           Enviar
         </Button>
       </Form>
+      </Container>
       <Footer/>
     </div>
   );
