@@ -61,7 +61,7 @@ Estilos para la interfaz de usuario.
 
 ## Contribuciones
 
-Si deseas contribuir a este proyecto, te invitamos a realizar un Pull Request en GitHub. Agradecemos cualquier mejora, corrección de errores o nuevas características que puedas aportar.
+Si deseas contribuir a este proyecto, te invitamos a realizar un "Pull Request" en GitHub. Agradecemos cualquier mejora, corrección de errores o nuevas características que puedas aportar.
 
 
 
