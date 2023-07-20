@@ -7,6 +7,15 @@ function Contact() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const [notificationCount, setNotificationCount] = useState(0);
+
+ 
+  const incrementCounter = () => {
+    setNotificationCount(prevCount => prevCount + 1);
+    handleClose();
+  };
+
   return (
     <>
       <Button className='button' variant="primary" onClick={handleShow}>
@@ -39,12 +48,17 @@ function Contact() {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
+          
+          <Button variant="primary" onClick={incrementCounter}>
+            Enviar Notificacion
           </Button>
         </Modal.Footer>
       </Modal>
+
+    
+      <p>Emails Recibidos: {notificationCount}</p>
     </>
   );
 }
+
 export default Contact;
