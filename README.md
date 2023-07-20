@@ -47,6 +47,9 @@ Página para que los anunciantes puedan subir su perfil y habilidades.
 
 ## Tecnologías Utilizadas
 
+ReactBoostrap:
+Librería de interfaz React que utiliza Bootstrap para el diseño y estilo de componentes.
+
 React.js: 
 Biblioteca de JavaScript para construir interfaces de usuario interactivas.
 
