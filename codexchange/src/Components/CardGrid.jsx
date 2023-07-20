@@ -20,7 +20,7 @@ function GridExample() {
 
   const fetchData = () => {
     const apiUrl =
-      'https://hackaton-fd4b0-default-rtdb.firebaseio.com/coders.json';
+      'http://localhost:8000/coders'
 
     axios
       .get(apiUrl)
