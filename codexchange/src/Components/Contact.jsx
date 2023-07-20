@@ -9,7 +9,7 @@ function Contact() {
   const handleShow = () => setShow(true);
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button className='button' variant="primary" onClick={handleShow}>
         Contacto
       </Button>
       <Modal show={show} onHide={handleClose}>

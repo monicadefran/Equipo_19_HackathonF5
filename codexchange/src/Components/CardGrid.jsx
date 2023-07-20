@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import 'holderjs';
 import Contact from './Contact';
+import '../Css/CardGrid.css'; 
 
 import { Container, Form } from 'react-bootstrap'; // Importa Form desde react-bootstrap
 
@@ -46,7 +47,7 @@ function GridExample() {
 
   return (
     <>
-   
+      
       <Container style={{ marginTop: '2rem' }}>
        
         <Form style={{ marginBottom: '2rem' }}> 
@@ -75,10 +76,10 @@ function GridExample() {
                     <br />
                     {coder.Habilidades.join(', ')}
                   </Card.Text>
-                  <Button variant="primary" href={coder.LinkedIn}>
+                  <Button className='button' variant="primary" href={coder.LinkedIn}>
                     LinkedIn
                   </Button>
-                  <Button variant="secondary" href={coder.GitHub}>
+                  <Button className='button' variant="secondary" href={coder.GitHub}>
                     GitHub
                   </Button>
                   <Contact />
