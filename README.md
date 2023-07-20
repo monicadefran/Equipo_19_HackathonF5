@@ -48,9 +48,11 @@ Página para que los anunciantes puedan subir su perfil y habilidades.
 ## Tecnologías Utilizadas
 
 ```
-JavaScript: es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web,
+JavaScript:
+Lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web,
 
-React.js: es una biblioteca de JavaScript para construir interfaces de usuario interactivas.
+React.js:
+Es una biblioteca de JavaScript para construir interfaces de usuario interactivas.
 
 ReactBoostrap:
 Librería de interfaz React que utiliza Bootstrap para el diseño y estilo de componentes.
