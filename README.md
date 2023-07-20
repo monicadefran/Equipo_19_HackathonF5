@@ -1,5 +1,5 @@
-# Equipo_19_HackathonF5
-## CRUD con React consumiendo una API de Java
+
+## Equipo_19_HackathonF5
 ```
 Para acceder a este repositorio (pongo ejemplo con visual studio code) debes tener instalados los siguientes programas: 
 
@@ -8,12 +8,7 @@ Para acceder a este repositorio (pongo ejemplo con visual studio code) debes ten
 - Tener creada la estructura de React:
 https://es.react.dev/learn/start-a-new-react-project
 
-- Vite:
-https://vitejs.dev/guide/
-```
-## Además hemos usado el IntelliJ IDEA para tomar los datos de java
-```
-En el enlace del repositorio java: https://github.com/crismouta/API-Characters.git y abrir luego "CharactersApplication" y poner el "run" para que se lean los datos y el puerto de acceso será "http://localhost:8080/character"
+Para que se lean los datos y el puerto de acceso será "http://localhost:8080/character"
 ```
 
 
