@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import '../Css/Navbar.css';
+import { FaUser } from 'react-icons/fa';
 import nav from '../assets/nav.png';
 import logo from '../assets/logo.png';
 
@@ -20,6 +21,9 @@ function NavScrollExample() {
               <Nav.Link as={Link} to="/">Inicio</Nav.Link>
               <Nav.Link as={Link} to="/Createads">Publicar</Nav.Link>
               <Nav.Link href={`mailto:${contactEmail}`}>Contacto</Nav.Link>
+            </Nav>
+            <Nav style={{ marginRight: '50px' }}>
+              <FaUser size={24} />
             </Nav>
           </Navbar.Collapse>
         </Container>
