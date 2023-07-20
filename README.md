@@ -49,9 +49,8 @@ Página para que los anunciantes puedan subir su perfil y habilidades.
 
 ```
 JavaScript: es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web,
-React.js: 
 
-Biblioteca de JavaScript para construir interfaces de usuario interactivas.
+React.js: es una biblioteca de JavaScript para construir interfaces de usuario interactivas.
 
 ReactBoostrap:
 Librería de interfaz React que utiliza Bootstrap para el diseño y estilo de componentes.
