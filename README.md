@@ -30,16 +30,5 @@ git remote add origin https://github.com/xxx/xxx.git
 git push -u origin main"
 ```
 
-## Utilizamos npm y escribimos en la terminal: 
-
-```
-"npm create vite@latest"
-
-
-```
-
-## Nos aparecera una lista de frameworks, elegimos react.
-
-## Seguidamente elegiremos una "variant" de las que aparecen, en este caso, JavaScript.
 
 
