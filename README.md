@@ -29,6 +29,11 @@ git branch -M main
 git remote add origin https://github.com/xxx/xxx.git
 git push -u origin main"
 ```
+## Después introduciremos los comandos:
 
-
+```
+- "cd seguido del nombre que hayamos elegido"
+- "npm install"
+- "npm start"
+```
 
