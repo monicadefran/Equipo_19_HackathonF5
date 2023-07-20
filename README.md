@@ -25,7 +25,7 @@ https://es.react.dev/learn/start-a-new-react-project
 - "npm start"
 ```
 
-## para crear un repositorio/meter cambios:
+## Para crear un repositorio/introducir cambios:
 ```
 "or create a new repository on the command line
 echo "# nombre" >> README.md
