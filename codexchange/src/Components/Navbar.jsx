@@ -1,18 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Container, Navbar, Nav } from 'react-bootstrap';
+import '../Css/Navbar.css';
 import nav from '../assets/nav.png';
-import logo from '../assets/logo.png'; 
-import '../Css/Navbar.css'; 
-import { Link } from "react-router-dom";
+import logo from '../assets/logo.png';
 
 function NavScrollExample() {
+  const contactEmail = 'contacto@tudominio.com'; 
   return (
     <>
       <Navbar expand="lg" className="bg-body-tertiary">
@@ -24,8 +18,8 @@ function NavScrollExample() {
           <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
               <Nav.Link as={Link} to="/">Inicio</Nav.Link>
-               <Nav.Link as={Link} to="/Createads">Publicar</Nav.Link>
-               <Nav.Link as={Link} to="#action2">Contacto</Nav.Link>
+              <Nav.Link as={Link} to="/Createads">Publicar</Nav.Link>
+              <Nav.Link href={`mailto:${contactEmail}`}>Contacto</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
