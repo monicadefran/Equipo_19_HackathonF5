@@ -1,8 +1,7 @@
 import express  from "express"
 import cors from 'cors'
-//importamos la conexión a la DB
 import db from "./database/db.js"
-//importamos nuestro enrutador
+
 import coderRoutes from './routes/routes.js'
 
 const app = express()
@@ -13,5 +12,5 @@ app.use(express.urlencoded({extended:true}))
 app.use('/coders', coderRoutes )
 
 app.listen(8000, ()=>{
-    console.log('Server UP running in http://localhost:8000/')
+    console.log('Server UP running in mongodb+srv://sala19:sala19@hackaton19.egcll73.mongodb.net/codexchange.codermodels')
 })
