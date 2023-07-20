@@ -43,7 +43,7 @@ function GridExample() {
   return (
     <>
       
-      <Container style={{ marginTop: '2rem' }}>
+      <Container style={{ marginTop: '2rem', marginBottom: '2rem' }}>
        
         <Form style={{ marginBottom: '2rem' }}> 
           <Form.Group controlId="searchTerm">
