@@ -1,15 +1,6 @@
 import React from 'react';
 import { IconContext } from "react-icons";
 import { Container, Row, Col } from 'react-bootstrap';
-import "../Css/Footer.css";
-import { 
-  FaFacebook, 
-  FaInstagram, 
-  FaLinkedin, 
-  FaTwitter, 
-  FaGithub, 
-  FaGoogle 
-} from 'react-icons/fa';
 
 const Footer = () => {
 
@@ -54,4 +45,3 @@ const Footer = () => {
 };
  
  export default Footer;
- 
