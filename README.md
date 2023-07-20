@@ -17,7 +17,7 @@ git clone <https://github.com/monicadefran/Equipo_19_HackathonF5.git>
 ```bash
 npm install
 ```
-3. Instala las dependecias de desarrollo para pruebas unitarias:
+3. Instala las dependencias de desarrollo para pruebas unitarias:
 ```bash
 npm install --save-dev jest @testing-library/react @testing-library/jest-dom
 ```
