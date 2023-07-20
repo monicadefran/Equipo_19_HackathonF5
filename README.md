@@ -5,6 +5,7 @@
 
 ```
 - Node
+https://nodejs.org/es/download
 
 - Tener creada la estructura de React:
 https://es.react.dev/learn/start-a-new-react-project
