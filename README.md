@@ -56,6 +56,9 @@ Biblioteca para realizar solicitudes HTTP hacia el servidor.
 CSS: 
 Estilos para la interfaz de usuario.
 
+![image](https://github.com/monicadefran/Equipo_19_HackathonF5/assets/134279099/c4b8dfaa-5593-4a81-948d-1693434414ba)
+
+
 ## Contribuciones
 
 Si deseas contribuir a este proyecto, te invitamos a realizar un Pull Request en GitHub. Agradecemos cualquier mejora, corrección de errores o nuevas características que puedas aportar.
