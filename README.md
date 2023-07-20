@@ -1,5 +1,5 @@
 ## CodeXchange
-## Banco de Tiempo de Desarrolladores
+## Banco de Tiempo para Coders
 
 ## Descripción del Proyecto
 El Banco de Tiempo de Desarrolladores CODEXCHANGE es una plataforma que conecta a anunciantes que quieran compartir sus habilidades de desarrollo. Permite que diferentes perfiles de CODERS intercambien sus conocimientos con otras personas usuarias para proyectos específicos, para complementar proyectos o simplemente para intercambiar sus habilidades técnicas. Los anunciantes pueden subir sus perfiles y habilidades, mientras que cada usuario puede buscar y contactar a los desarrolladores adecuados para sus proyectos.
