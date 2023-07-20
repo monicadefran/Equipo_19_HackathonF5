@@ -4,6 +4,8 @@
 ## Descripción del Proyecto
 El Banco de Tiempo de CODERS "CODEXCHANGE" es una plataforma que conecta a anunciantes que quieran compartir sus habilidades de desarrollo. Permite que diferentes perfiles de CODERS intercambien sus conocimientos con otras personas usuarias para proyectos específicos, para complementar proyectos o, simplemente, para intercambiar sus habilidades técnicas. Las personas que se anuncian pueden subir sus perfiles y habilidades, mientras que los usuarios puede buscar y contactar a los desarrolladores adecuados para sus proyectos.
 
+![image](https://github.com/monicadefran/Equipo_19_HackathonF5/assets/134279099/57bf498e-0827-42bd-a308-e0c58a20737d)
+
 
 ## Instrucciones de Uso
 
