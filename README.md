@@ -56,6 +56,10 @@ Biblioteca para realizar solicitudes HTTP hacia el servidor.
 CSS: 
 Estilos para la interfaz de usuario.
 
+MongoDB:
+Es una base de datos de documentos que ofrece una gran escalabilidad y flexibilidad, y un modelo de consultas e indexación avanzado.
+
+
 ![image](https://github.com/monicadefran/Equipo_19_HackathonF5/assets/134279099/c4b8dfaa-5593-4a81-948d-1693434414ba)
 
 
