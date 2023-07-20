@@ -34,6 +34,7 @@ git push -u origin main"
 
 ```
 "npm create vite@latest"
+
 Nos aparecera una lista de frameworks, elegimos react.
 ```
 
