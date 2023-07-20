@@ -24,6 +24,7 @@ https://es.react.dev/learn/start-a-new-react-project
 - "npm install"
 - "npm start"
 ```
+
 ## para crear un repositorio/meter cambios:
 ```
 "or create a new repository on the command line
