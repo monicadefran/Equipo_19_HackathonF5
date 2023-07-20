@@ -17,8 +17,14 @@ https://es.react.dev/learn/start-a-new-react-project
 ```
 "git clone" seguido del nombre del repositorio.
 ```
+## Después introduciremos los comandos:
 
-## Sigue después las instrucciones que te aparecerán en la pantalla:
+```
+- "cd seguido del nombre que hayamos elegido"
+- "npm install"
+- "npm start"
+```
+## para crear un repositorio/meter cambios:
 ```
 "or create a new repository on the command line
 echo "# nombre" >> README.md
@@ -29,11 +35,5 @@ git branch -M main
 git remote add origin https://github.com/xxx/xxx.git
 git push -u origin main"
 ```
-## Después introduciremos los comandos:
 
-```
-- "cd seguido del nombre que hayamos elegido"
-- "npm install"
-- "npm start"
-```
 
