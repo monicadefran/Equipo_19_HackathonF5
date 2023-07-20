@@ -49,7 +49,7 @@ Página para que los anunciantes puedan subir su perfil y habilidades.
 
 ```
 JavaScript:
-Lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web,
+Lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web.
 
 React.js:
 Es una biblioteca de JavaScript para construir interfaces de usuario interactivas.
