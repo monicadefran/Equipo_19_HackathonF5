@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Footer from '../Components/Footer';
 import NavScrollExample from '../Components/Navbar';
-mport axios from 'axios'
+import axios from 'axios'
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
