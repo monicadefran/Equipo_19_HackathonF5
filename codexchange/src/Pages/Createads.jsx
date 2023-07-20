@@ -38,7 +38,7 @@ const Createdads = () => {
   return (
     <div>
       <NavScrollExample />
-        <Container>
+        <Container style={{ marginBottom: '5%', marginTop: '5%'}}>
           <Form onSubmit={store}>
             <Form.Group className="mb-3" controlId="formBasiname">
               <Form.Label>Nombre</Form.Label>
