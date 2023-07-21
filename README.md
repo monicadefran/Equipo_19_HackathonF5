@@ -78,7 +78,7 @@ Es una base de datos de documentos que ofrece una gran escalabilidad y flexibili
 Si deseas contribuir a este proyecto, te invitamos a realizar un "Pull Request" en GitHub. Agradecemos cualquier mejora, corrección de errores o nuevas características que puedas aportar.
 ```
 
-
+![image](https://github.com/monicadefran/Equipo_19_HackathonF5/assets/133367024/0545c953-a970-4e31-be59-da2d54ddc1e9)
 
 
 
