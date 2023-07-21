@@ -12,5 +12,5 @@ app.use(express.urlencoded({extended:true}))
 app.use('/coders', coderRoutes )
 
 app.listen(8000, ()=>{
-    console.log('Server UP running in mongodb+srv://sala19:sala19@hackaton19.egcll73.mongodb.net/codexchange.codermodels')
+    console.log('http://localhost:8000/')
 })

@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-const url = 'mongodb+srv://sala19:sala19@hackaton19.egcll73.mongodb.net/codexchange?retryWrites=true&w=majority';
+const url = 'mongodb://localhost:27017/codexchange';
 mongoose.connect(url)
 
 const db = mongoose.connection
