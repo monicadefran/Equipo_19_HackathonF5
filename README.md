@@ -75,9 +75,10 @@ Es una base de datos de documentos que ofrece una gran escalabilidad y flexibili
 ## Contribuciones
 
 ```
-Si deseas contribuir a este proyecto, te invitamos a realizar un "Pull Request" en GitHub. Agradecemos cualquier mejora, corrección de errores o nuevas características que puedas aportar.
+Si deseas contribuir a este proyecto, aquí dejamos en abierto el repositorio en GitHub. Agradecemos cualquier mejora, corrección de errores o nuevas características que puedas aportar. Muchas graciasde antemano. 
 ```
 
+## El equipo codexchange
 ![image](https://github.com/monicadefran/Equipo_19_HackathonF5/assets/133367024/0545c953-a970-4e31-be59-da2d54ddc1e9)
 
 
